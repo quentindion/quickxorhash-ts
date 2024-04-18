@@ -1,7 +1,10 @@
 # QuickXorHash
 Microsoft's QuickXorHash algorithm in pure Typescript & NodeJS.
 
-# Use
+Used in Microsoft OneDrive business Graoh API for checking files content changes.
+https://learn.microsoft.com/fr-fr/onedrive/developer/code-snippets/quickxorhash?view=odsp-graph-online
+
+## Use
 ```ts
 // Create an instance of QuickXorHash
 const hasher = new QuickXorHash();
@@ -19,11 +22,3 @@ const hash = hasher.digest('base64');
 
 console.log('Hash result:', hash);
 ```
-
-Details:
-https://learn.microsoft.com/fr-fr/onedrive/developer/code-snippets/quickxorhash?view=odsp-graph-online
-
-Used in Microsoft OneDrive business Graoh API for checking files content changes.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details
