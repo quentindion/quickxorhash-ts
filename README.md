@@ -17,7 +17,8 @@ const buffer = readFileSync(pathToTheFile);
 // Call update to hash the data
 hasher.update(buffer, 0, buffer.length);
 
-// Call digest to finalize the hash computation and convert it to string (use a BufferEncoding parameter as .toString() method)
+// Call digest to finalize the hash computation and convert it to string
+// use a BufferEncoding parameter as .toString() method
 const hash = hasher.digest('base64');
 
 console.log('Hash result:', hash);
