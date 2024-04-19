@@ -6,6 +6,9 @@ https://learn.microsoft.com/fr-fr/onedrive/developer/code-snippets/quickxorhash?
 
 ## Use
 ```ts
+// Import lib
+import { QuickXorHash } from './QuickXorHash';
+
 // Create an instance of QuickXorHash
 const hasher = new QuickXorHash();
 
