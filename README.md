@@ -1,5 +1,5 @@
 # QuickXorHash
-Microsoft's QuickXorHash algorithm in pure Typescript & NodeJS.
+Microsoft's QuickXorHash algorithm in pure Typescript - NodeJS.
 
 Used in Microsoft OneDrive business Graph API for checking files content changes.\
 https://learn.microsoft.com/fr-fr/onedrive/developer/code-snippets/quickxorhash?view=odsp-graph-online
