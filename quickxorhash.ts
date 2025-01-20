@@ -76,7 +76,7 @@ export class QuickXorHash {
     }
 }
 
-export function writeBigUInt64LE(buffer: Buffer, value: bigint): Buffer {
+export function writeBigUInt64LE(buffer: Buffer<ArrayBuffer>, value: bigint): Buffer<ArrayBuffer> {
 
     // Convert the BigInt value into two 32-bit unsigned integers
     const low = Number(value & BigInt(0xFFFFFFFF));
